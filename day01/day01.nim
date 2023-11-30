@@ -7,8 +7,6 @@ import std/[
 const file = "./input.txt"
 let lines = readFile(file).strip().splitLines()
 
-type Number = enum 
-    one = 1, two, three, four, five, six, seven, eight, nine
 
 proc part_one(): int = 
     result = 0
@@ -16,6 +14,9 @@ proc part_one(): int =
         # Remove all non-digit characters
         let digits = l.toSeq.filter(_ => _.isDigit).join
         result += (digits[0] & digits[len(digits) - 1]).parseInt
+
+type Number = enum 
+    one = 1, two, three, four, five, six, seven, eight, nine
 
 proc part_two(): int =
     result = 0
