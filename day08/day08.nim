@@ -39,7 +39,7 @@ proc part_two(): int =
 
     # calculate largest common multiple 
     # this is the point where paths are end up at "..Z" at the same time
-    return lcm(paths)
+    return lcm(paths) 
     
 
 echo "Part one: ", part_one()
