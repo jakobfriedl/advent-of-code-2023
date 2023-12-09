@@ -16,7 +16,7 @@ nim c -o:bin/day<number> -d:release -r day<number>.nim
 ## Solutions
 <!-- AOC TILES BEGIN -->
 <h1 align="center">
-  2023 - 8 ⭐
+  2023 - 10 ⭐
 </h1>
 <a href="day01/day01.nim">
   <img src="tiles/2023/01.png" width="161px">
@@ -35,5 +35,14 @@ nim c -o:bin/day<number> -d:release -r day<number>.nim
 </a>
 <a href="day06/day06.nim">
   <img src="tiles/2023/06.png" width="161px">
+</a>
+<a href="day07/day07.nim">
+  <img src="tiles/2023/07.png" width="161px">
+</a>
+<a href="day08/day08.nim">
+  <img src="tiles/2023/08.png" width="161px">
+</a>
+<a href="day09/day09.nim">
+  <img src="tiles/2023/09.png" width="161px">
 </a>
 <!-- AOC TILES END -->
