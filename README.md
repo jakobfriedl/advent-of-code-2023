@@ -16,7 +16,7 @@ nim c -o:bin/day<number> -d:release -r day<number>.nim
 ## Solutions
 <!-- AOC TILES BEGIN -->
 <h1 align="center">
-  2023 - 10 ⭐
+  2023 - 12 ⭐
 </h1>
 <a href="day01/day01.nim">
   <img src="tiles/2023/01.png" width="161px">
